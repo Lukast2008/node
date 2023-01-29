@@ -1,0 +1,21 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index",
+    "start:prod": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "name": "node_hw1",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "nanoid": "^3.3.4",
+    "yargs": "^17.6.2",
+    "yarn": "^1.22.19"
+  }
+}
